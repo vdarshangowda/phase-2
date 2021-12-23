@@ -1,0 +1,94 @@
+
+{
+    "questions": [{
+            "questionText": "Which of the following tag represents a generic document or application section in HTML5?",
+            "options": [{
+                    "text": "section",
+                    "correct": true
+                },
+                {
+                    "text": "aside"
+                },
+                {
+                    "text": "article"
+                },
+                {
+                    "text": "header"
+                }
+            ],
+            "explanation": "section' tag represents a generic document or application section. It can be used together with h1-h6 to indicate the document structure."
+        },
+        {
+            "questionText": "Which of the following tag represents a section of the document intended for navigation in HTML5?",
+            "options": [{
+                    "text": "nav","correct":true
+                },
+                {
+                    "text": "section"
+                },
+                {
+                    "text": "footer"
+                },
+                {
+                    "text": "dialog"
+                }
+            ],
+            "explanation": "'nav' tag represents a section of the document intended for navigation."
+        },
+        {
+            "questionText": "Which of the following input control is used for input fields that should contain a value from a range of numbers in Web Form 2.0?",
+            "options": [{
+                    "text": "week"
+                },
+                {
+                    "text": "time",
+                    "correct": false
+                },
+                {
+                    "text": "Range",
+                    "correct":true
+                },
+                {
+                    "text": "Number"
+                }
+            ],
+            "explanation": "'range' input control is used for input fields that should contain a value from a range of numbers.d"
+        },
+        {
+            "questionText": " Which of the following tag automatically focus one particular form field in HTML5?",
+            "options": [{
+                    "text": "Output"
+                },
+                {
+                    "text": "autofocus",
+                    "correct": true
+                },
+                {
+                    "text": "Place Holder"
+                },
+                {
+                    "text": "required"
+                }
+            ],
+            "explanation": "This is a simple one-step pattern, easily programmed in JavaScript at the time of document load, automatically focus one particular form field."
+        },
+        {
+            "questionText": " Which value of Socket.readyState atribute of WebSocket indicates that the connection has not yet been established? ",
+            "options": [{
+                    "text": "1"
+                },
+                {
+                    "text": "0",
+                    "correct": true
+                },
+                {
+                    "text": "2"
+                },
+                {
+                    "text": "3"
+                }
+            ],
+            "explanation": "A value of 0 indicates that the connection has not yet been established."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<div class="container bg-light py-5">
+<h1 class="display-5 fw-bold" style="color: blueviolet;">Welcome to Online ZeOmega<a><img src="https://thumbs.dreamstime.com/b/test-logo-design-eps-supported-81278935.jpg" width="120"></a></h1>
+<p class="col-md-8 fs-4">This test containes 4 tests.Each test containes 10 questions and candidates must answer all the tests to pass the test.It will also be extremely useful to study the key terms at the end of the chapter and review the Test Your Knowledge activity at the end of the chapter.</p>
+<h4 style="color: blueviolet;">Notes:-</h4>
+<ol>
+    <li>Correct answer gives you 1 mark</li>
+    <li>Incorrect answer gives you 0 mark</li>
+    <li>Each question contain 60 seconds of time</li>
+    <li>Refreshing the Page will reset the test</li>
+</ol>
+<h4 style="font-family:cursive;text-align: center;color: coral;">All the Best!!</h4>
+<div class="form-control" style="text-align:left">
+    <label for="uname"><b style="color: blueviolet;">Name: </b></label>
+    <input #username type="text" placeholder="Enter your name" name="uname" required><br><br>
+
+    <label for="ename"><b style="color: blueviolet;">Email: </b></label>
+    <input type="email" placeholder="Enter your mail id" name="ename" required><br><br>
+
+    <label for="psw"><b style="color: blueviolet;">Password: </b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+  </div><br>
+  <button class="btn btn-primary btn-lg" (click)="takeTest()" routerLink="/test-section">Take Test</button>
+</div>

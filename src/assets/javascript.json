@@ -1,0 +1,94 @@
+
+{
+    "questions": [{
+            "questionText": "Which of the following is true about variable naming conventions in JavaScript?",
+            "options": [{
+                    "text": " ou should not use any of the JavaScript reserved keyword as variable name."
+                },
+                {
+                    "text": "JavaScript variable names should not start with a numeral (0-9)."
+                },
+                {
+                    "text": "Both of the above",
+                    "correct":true
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "Both of the option are correct"
+        },
+        {
+            "questionText": "Which of the following type of variable is visible everywhere in your JavaScript code?",
+            "options": [{
+                    "text": "global varible",
+                    "correct":true
+                },
+                {
+                    "text": "local varible"
+                },
+                {
+                    "text": "Both of the above"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "Global Variables: A global variable has global scope which means it is visible everywhere in your JavaScript code."
+        },
+        {
+            "questionText": "Which built-in method returns the index within the calling String object of the first occurrence of the specified value?",
+            "options": [{
+                    "text": "getindex()"
+                },
+                {
+                    "text": "indexof()",
+                    "correct": true
+                },
+                {
+                    "text": "Location"
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "indexOf() method returns the index within the calling String object of the first occurrence of the specified value, or -1 if not foundd"
+        },
+        {
+            "questionText": " Which built-in method reverses the order of the elements of an array?",
+            "options": [{
+                    "text": "changeorder(order)"
+           },
+                {
+                    "text": "reverse",
+                    "correct": true
+                },
+                {
+                    "text": "sort(order)"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "reverse() method reverses the order of the elements of an array -- the first becomes the last, and the last becomes the first."
+        },
+        {
+            "questionText": "Which of the following function of Number object defines how many total digits to display of a number?",
+            "options": [{
+                    "text": "toString()"
+                },
+                {
+                    "text": "value()",
+                    "correct": true
+                },
+                {
+                    "text": "toLocalString()"
+                },
+                {
+                    "text": "toPrecious()"
+                }
+            ],
+            "explanation": "value() returns the number value."
+        }
+    ]
+}

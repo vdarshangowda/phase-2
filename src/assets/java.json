@@ -1,0 +1,94 @@
+
+{
+    "questions": [{
+            "questionText": "What is the size of int variable?",
+            "options": [{
+                    "text": "32 bit",
+                    "correct": true
+                },
+                {
+                    "text": "8 bit"
+                },
+                {
+                    "text": "16 bit"
+                },
+                {
+                    "text": "64 bit"
+                }
+            ],
+            "explanation": "The int data type is represented by 32-bit signed two's complement integer"
+        },
+        {
+            "questionText": "What is the default value of short variable?",
+            "options": [{
+                    "text": "0"
+                },
+                {
+                    "text": "null"
+                },
+                {
+                    "text": "undefined"
+                },
+                {
+                    "text": "0.0",
+                    "correct": true
+                }
+            ],
+            "explanation": "The default is above answer"
+        },
+        {
+            "questionText": "Which of the following is true about String?",
+            "options": [{
+                    "text": "String is mutable."
+                },
+                {
+                    "text": "String is immutable.",
+                    "correct": true
+                },
+                {
+                    "text": "String is a data type."
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "String object is immutable so that once it is created a String object cannot be changed"
+        },
+        {
+            "questionText": "Method Overriding is an example of?",
+            "options": [{
+                    "text": "Static Binding"
+                },
+                {
+                    "text": "Dynamic Binding",
+                    "correct": true
+                },
+                {
+                    "text": "Both of the above"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "Method overriding is an ex of dynamic Binding"
+        },
+        {
+            "questionText": "In which case, program is expected to recover?",
+            "options": [{
+                    "text": "if an error occurs"
+                },
+                {
+                    "text": "if an exception occurs",
+                    "correct": true
+                },
+                {
+                    "text": "Both of the above"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "A program is expected to recover if an exception occurs"
+        }
+    ]
+}
